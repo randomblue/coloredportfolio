@@ -17,7 +17,7 @@ app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
   res.render('index', {
-    title: 'Byron Luk | Full Stack Developer',
+    title: 'JP Medallon | Full Stack Developer',
     mailSent: false
   });
 });
